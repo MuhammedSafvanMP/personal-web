@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar"
 import NebulaEffect from "./components/NebulaEffect"
 import StarsBackground from "./components/StarsBackground"
 import { ThemeProvider } from "./components/ThemeProvider"
+import CompanyMarquee from "./components/company-marquee"
 
 export default function App() {
   const ref = useRef(null)
@@ -47,6 +48,7 @@ export default function App() {
 
           {/* Contact Section */}
           <ContactSection />
+          <CompanyMarquee />
         </main>
 
         <Footer />
