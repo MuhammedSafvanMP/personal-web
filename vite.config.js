@@ -9,11 +9,11 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 3290,
   },
-  // preview: {
-  //   host: '0.0.0.0',
-  //   port: 7867,
-  //   allowedHosts: ['e-learning-5x2n.onrender.com'], 
-  // },
+  preview: {
+    host: '0.0.0.0',
+    port: 3290,
+    allowedHosts: ['muhammed-safvan-mp.onrender.com'], 
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
