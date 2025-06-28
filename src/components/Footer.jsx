@@ -25,7 +25,7 @@ export default function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/muhammed-safvan-mp-207a79359/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center w-10 h-10 rounded-full bg-muted hover:bg-primary/20 transition-colors"

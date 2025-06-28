@@ -1,13 +1,19 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import techno from "../assets/techno.jpeg";
+import zorrow from "../assets/zorrow.jpeg";
+import ranzo from "../assets/rannav.png";
+import kodlar from "../assets/kod.avif";
+import brid from "../assets/brid.png";
 
 // Replace with your actual company names
 const companies = [
-  { name: "Zorrow Tech", logo: "/logos/zorrow.png" },
-  { name: "Kodlar Innovations", logo: "/logos/kodlar.png" },
-  { name: "Ranzom Tech", logo: "/logos/ranzom.png" },
-  { name: "Tecnavis Web Solutions", logo: "/logos/tecnavis.png" },
+  { name: "Zorrow Tech", logo: `${zorrow}` },
+  { name: "Kodlar Innovations", logo: `${kodlar}` },
+  { name: "Ranzom Tech", logo: `${ranzo}` },
+  { name: "Tecnavis Web Solutions", logo: `${techno}` },
+  { name: "Bridgeon Solutions", logo: `${brid}` },
 ];
 
 export default function CompanyMarquee() {

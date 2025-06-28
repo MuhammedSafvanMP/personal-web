@@ -59,7 +59,7 @@ export default function HeroSection({ scrollYProgress }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <RotateWords  words={["MERN", "DJango", "Full Stack", "Frontend", "Backend"]} text="Developer" />
+          <RotateWords  words={["MERN", "Full Stack", "Frontend", "Backend"]} text="Developer" />
         </motion.h2>
 
         <motion.div
