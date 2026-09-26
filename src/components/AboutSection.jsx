@@ -43,7 +43,7 @@ export default function AboutSection() {
               {/* <img src="/placeholder.jpg" alt="Profile" className="object-cover w-full h-full" /> */}
             </div>
             <div className="absolute -bottom-6 -right-6 h-24 w-24 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold">2+ Years</span>
+              <span className="text-primary-foreground font-bold">4+ Years</span>
             </div>
           </motion.div>
 
@@ -55,7 +55,7 @@ export default function AboutSection() {
 
             <motion.p variants={itemVariants} className="text-muted-foreground">
               I'm a passionate Full Stack Developer with expertise in creating beautiful, functional, and user-centered
-              digital experiences. With 2+ years of experience in the field, I am always looking for new and innovative
+              digital experiences. With 4+ years of experience in the field, I am always looking for new and innovative
               ways to bring my clients' visions to life.
             </motion.p>
             <motion.div variants={itemVariants} className="flex gap-4">
